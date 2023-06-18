@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSA</title>
+  </head>
+  <body>
+    <h2>Arrays</h2>
+    <p>
+      Arrays are a fundamental data structure that store elements of the same
+      type in a continuous block of memory. They&#x27;re crucial in
+      understanding more advanced data structures and algorithms.
+    </p>
+    <ul>
+      <li>Fixed size, defined at creation time.</li>
+      <li>Direct access to elements based on index.</li>
+      <li>
+        Efficient when size of data is known in advance, but costly to resize.
+      </li>
+    </ul>
+    <h2>Hash Maps, Tables</h2>
+    <p>
+      A hash table (or hash map) is a data structure that implements an
+      associative array abstract data type, a structure that can map keys to
+      values.
+    </p>
+    <ul>
+      <li>Provides very fast O(1) lookup and insertion.</li>
+      <li>
+        Keys are unique and used to compute a hash, which points to the storage
+        location.
+      </li>
+      <li>
+        Hash collisions are resolved through various methods, like chaining and
+        open addressing.
+      </li>
+    </ul>
+    <h2>Pointers</h2>
+    <p>
+      Pointers are a fundamental concept in programming that hold the memory
+      address of a value.
+    </p>
+    <ul>
+      <li>Allow for efficient handling of arrays and data structures.</li>
+      <li>Enable the creation and manipulation of complex data structures.</li>
+      <li>
+        Used to create dynamic data structures that can grow or shrink during
+        runtime.
+      </li>
+    </ul>
+    <h2>Linked List</h2>
+    <p>
+      A linked list is a linear data structure where each element points to the
+      next.
+    </p>
+    <ul>
+      <li>Elements are not stored at contiguous memory locations.</li>
+      <li>
+        Efficient insertions and deletions at any place as compared to an array.
+      </li>
+      <li>Utilized in implementation of stacks, queues, and graphs.</li>
+    </ul>
+    <h2>Sliding Window</h2>
+    <p>
+      Sliding window is an algorithmic paradigm that provides a solution for
+      problems dealing with arrays or lists.
+    </p>
+    <ul>
+      <li>Used for finding ranges or intervals in data.</li>
+      <li>
+        Useful for tracking a &#x27;window&#x27; of information as it moves
+        across the data.
+      </li>
+      <li>
+        Efficient for problems requiring checking all subarrays of a certain
+        size.
+      </li>
+    </ul>
+    <h2>Binary Search</h2>
+    <p>
+      Binary Search is an efficient algorithm for finding an item from a sorted
+      list of items.
+    </p>
+    <ul>
+      <li>Works by repeatedly dividing the search interval in half.</li>
+      <li>The initial interval includes the entire list.</li>
+      <li>Time complexity of O(log N).</li>
+    </ul>
+    <h2>Recursion</h2>
+    <p>
+      Recursion is a method of solving problems where the solution depends on
+      solutions to smaller instances of the same problem.
+    </p>
+    <ul>
+      <li>Breaks a problem down into smaller, more manageable parts.</li>
+      <li>Uses a function that calls itself during its execution.</li>
+      <li>Needs a base case to prevent infinite loops.</li>
+    </ul>
+    <h2>Backtracking</h2>
+    <p>
+      Backtracking is an algorithmic technique for solving problems recursively
+      by trying to build a solution incrementally.
+    </p>
+    <ul>
+      <li>
+        Solves a complex problem by breaking it down into simpler, smaller
+        sub-problems.
+      </li>
+      <li>
+        Backtracks when it realizes the current solution cannot be continued
+        into a complete one.
+      </li>
+      <li>
+        Used in many problems such as puzzles, game playing, and constraint
+        satisfaction problems.
+      </li>
+    </ul>
+    <h2>BFS, DFS</h2>
+    <p>
+      Breadth-first search (BFS) and depth-first search (DFS) are algorithms for
+      traversing or searching tree or graph data structures.
+    </p>
+    <ul>
+      <li>
+        BFS explores all vertices at the present depth before moving to vertices
+        at the next depth level.
+      </li>
+      <li>
+        DFS goes as deep as possible down one path before backing up to the next
+        one.
+      </li>
+      <li>
+        Both are used in path finding, cycle detection, and solving puzzles.
+      </li>
+    </ul>
+    <h2>Dynamic Programming</h2>
+    <p>
+      Dynamic Programming is an algorithmic paradigm that solves a complex
+      problem by breaking it into simpler subproblems and stores the results of
+      subproblems to avoid computing the same results again.
+    </p>
+    <ul>
+      <li>Uses memoization to store results of subproblems.</li>
+      <li>Solves overlapping subproblems.</li>
+      <li>Commonly used for optimization problems.</li>
+    </ul>
+    <h2>Trees</h2>
+    <p>
+      A tree is a widely used abstract data type that simulates a hierarchical
+      tree structure.
+    </p>
+    <ul>
+      <li>Non-linear data structure with a root and nodes.</li>
+      <li>Nodes are connected by edges.</li>
+      <li>
+        Various types of trees are used in computer science like binary tree,
+        B-tree, AVL tree, etc.
+      </li>
+    </ul>
+    <h2>Graphs</h2>
+    <p>A Graph is a non-linear data structure consisting of nodes and edges.</p>
+    <ul>
+      <li>
+        Nodes are sometimes referred to as vertices and edges are lines or arcs
+        that connect any two nodes.
+      </li>
+      <li>Graphs can be directed (edges have direction) or undirected.</li>
+      <li>
+        Graph algorithms include DFS, BFS, Dijkstra&#x27;s algorithm, etc.
+      </li>
+    </ul>
+    <h2>Topological Sorting</h2>
+    <p>
+      Topological Sorting for a directed acyclic graph (DAG) is a linear
+      ordering of vertices such that for every directed edge u, v, vertex u
+      comes before v in the ordering.
+    </p>
+    <ul>
+      <li>
+        Helps in scheduling tasks from the given dependencies among tasks.
+      </li>
+      <li>Can only be performed on DAGs.</li>
+      <li>
+        Many real-world problems, like dependency resolution, can be modeled as
+        topological sorts.
+      </li>
+    </ul>
+    <h2>Greedy Algorithms</h2>
+    <p>
+      Greedy algorithm is an algorithmic paradigm that follows the problem
+      solving approach of making the locally optimal choice at each stage with
+      the hope of finding a global optimum.
+    </p>
+    <ul>
+      <li>Used for optimization problems.</li>
+      <li>Makes the best choice at each decision point.</li>
+      <li>
+        Problems must exhibit properties of matroids for greedy to work
+        optimally.
+      </li>
+    </ul>
+    <h2>Priority Queue</h2>
+    <p>
+      A priority queue is a special type of queue in which each element is
+      associated with a priority and is served according to its priority.
+    </p>
+    <ul>
+      <li>
+        Elements with higher priority are dequeued before elements with lower
+        priority.
+      </li>
+      <li>
+        If elements with equal priorities exist, they are served according to
+        their ordering in the queue.
+      </li>
+      <li>Implemented using arrays, linked-lists, or heaps.</li>
+    </ul>
+    <h2>Tries</h2>
+    <p>
+      A Trie, also called digital tree and sometimes radix tree or prefix tree,
+      is a kind of search tree—an ordered tree data structure that is used to
+      store a dynamic set or associative array where the keys are usually
+      strings.
+    </p>
+    <ul>
+      <li>Efficient information retrieval data structure.</li>
+      <li>
+        Searches, insertions, and deletions are all in O(L) time, where L is the
+        length of the key/word.
+      </li>
+      <li>Used in spell checking, auto-complete features, and IP routing.</li>
+    </ul>
+    <h2>Additional Topics</h2>
+    <h3>Kadane’s algorithm</h3>
+    <p>
+      Kadane&#x27;s algorithm is used to find the largest sum contiguous
+      subarray within a one-dimensional numeric array.
+    </p>
+    <ul>
+      <li>It&#x27;s an example of a dynamic programming algorithm.</li>
+      <li>Solves the maximum subarray problem in linear time, O(n).</li>
+    </ul>
+    <h3>Djikstra’s algorithm</h3>
+    <p>
+      Dijkstra’s algorithm is a popular search algorithm used to determine the
+      shortest path between nodes in a graph.
+    </p>
+    <ul>
+      <li>
+        It&#x27;s a greedy algorithm that finds the path with the smallest total
+        weight.
+      </li>
+      <li>Widely used in network routing protocols.</li>
+    </ul>
+    <h3>AVL Trees</h3>
+    <p>
+      An AVL tree is a self-balancing binary search tree, and it was the first
+      such data structure to be invented.
+    </p>
+    <ul>
+      <li>
+        The heights of the two child subtrees of any node differ by at most one.
+      </li>
+      <li>
+        Look-up, insertion, and deletion all take O(log n) time in both the
+        average and worst cases.
+      </li>
+      <li>
+        Useful in databases and file systems where fast look-up times are
+        critical.
+      </li>
+    </ul>
+    <h3>Sorting</h3>
+    <p>
+      Sorting refers to arranging data in a particular format, either ascending
+      or descending.
+    </p>
+    <ul>
+      <li>
+        Various sorting algorithms exist with different time complexities:
+        bubble sort (O(n^2)), quick sort (O(n log n)), merge sort (O(n log n)),
+        etc.
+      </li>
+      <li>
+        Choice of sorting algorithm depends on specific requirements of the
+        problem.
+      </li>
+    </ul>
+    <ul></ul>
+  </body>
+</html>
