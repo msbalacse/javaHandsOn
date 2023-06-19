@@ -22,7 +22,7 @@ public class Array {
 
         for (int[] ints : arr) {
             for (int anInt : ints) {
-                System.out.print(anInt + " ");
+                System.out.print(anInt + ", ");
             }
             System.out.println();
         }
