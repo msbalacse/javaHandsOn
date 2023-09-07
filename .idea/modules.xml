@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Games/Games.iml" filepath="$PROJECT_DIR$/Games/Games.iml" />
       <module fileurl="file://$PROJECT_DIR$/Music Player/Music Player.iml" filepath="$PROJECT_DIR$/Music Player/Music Player.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pattern/Pattern.iml" filepath="$PROJECT_DIR$/Pattern/Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-data-structure/java-data-structure.iml" filepath="$PROJECT_DIR$/java-data-structure/java-data-structure.iml" />
