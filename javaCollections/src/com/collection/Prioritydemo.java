@@ -10,6 +10,10 @@ class Mycom implements Comparator<Integer> {
         return 0;
     }
 }
+
+// note
+//it is binary search tree and default store the data top to down way smallest value is highest priority and largest value
+//has lowest priority. Tree will be like smallest value top of the tree and highest value end of the tree
 public class Prioritydemo {
     public static void main(String[] args) {
         PriorityQueue<Integer> p = new PriorityQueue<>(new Mycom());
