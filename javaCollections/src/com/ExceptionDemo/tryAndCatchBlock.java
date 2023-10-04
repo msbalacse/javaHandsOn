@@ -1,4 +1,4 @@
-package ExceptionDemo;
+package com.ExceptionDemo;
 
 import java.util.Scanner;
 
