@@ -43,7 +43,7 @@ public class SCCollection1 {
             ois.close();
         }
         catch (Exception e){
-
+            System.out.println(e);
         }
 
         FileOutputStream fos = new FileOutputStream("Accounts.txt");
@@ -52,7 +52,8 @@ public class SCCollection1 {
         System.out.println("Menu ");
 
         int choice;
-        String accno, name;
+        String accno;
+        String name;
         double balance;
 
         do{
@@ -68,13 +69,16 @@ public class SCCollection1 {
 
             switch (choice){
                 case 1 :
-                    System.out.println("Enter the accountno, name, balance");
+                    System.out.println("Enter the accountno, name, balance\n");
                     accno = in.nextLine();
+                    System.out.println("Enter the name");
                     name = in.nextLine();
+                    System.out.println("Enter the balance");
                     balance = in.nextDouble();
-
                     acc = new AccountProgram(accno,name,balance);
+                    hm.put(accno,acc);
                     System.out.println("Account created for :" + name);
+                    break;
                 case 2:
                     System.out.println("Enter Account no ");
                     in.nextLine();
