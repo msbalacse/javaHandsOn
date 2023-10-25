@@ -20,7 +20,7 @@ public class Fileoutputstream {
 
             byte b[] = str.getBytes();
 
-            fos.write(b,6,str.length()-6);
+            fos.write(b);
 
               fos.close();
         }catch (FileNotFoundException e){
