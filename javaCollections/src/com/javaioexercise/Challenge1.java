@@ -1,7 +1,6 @@
-package com.javaio;
+package com.javaioexercise;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.SequenceInputStream;
 

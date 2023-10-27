@@ -1,4 +1,4 @@
-package com.javaio;
+package com.javaioexercise;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
