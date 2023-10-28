@@ -43,4 +43,14 @@ public class Employee {
         Employee difference = emp1.subtract(emp2);
         System.out.println("Salary Difference: " + difference.getSalary());
     }
+
+    public static class IsStringPalindrome {
+
+        static String palindromeCheck(String str){
+            return str.toLowerCase();
+        }
+        public static void main(String[] args) {
+            palindromeCheck("DKFJLKJF  SDFLKJDF ALDJFKJF");
+        }
+    }
 }
