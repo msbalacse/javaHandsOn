@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/javaCollections/javaCollections.iml" filepath="$PROJECT_DIR$/javaCollections/javaCollections.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaHandsOn.iml" filepath="$PROJECT_DIR$/.idea/javaHandsOn.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaInterview/javaInterview.iml" filepath="$PROJECT_DIR$/javaInterview/javaInterview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaMarathon/javaMarathon.iml" filepath="$PROJECT_DIR$/javaMarathon/javaMarathon.iml" />
     </modules>
   </component>
 </project>
