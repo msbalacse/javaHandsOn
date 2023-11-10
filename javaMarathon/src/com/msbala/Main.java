@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Main {
 
+    public static final String BRAND = "msBala";
+
     private static double calculatePropertyYield(double rent,double propertyPrice){
         double yearlyRent = rent * 12;
         return (yearlyRent/propertyPrice)*100;
@@ -11,12 +13,20 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
+        String BRAND = "Joshua";
+
+
+        Main main = new Main();
+
+        System.out.println(main.BRAND.substring(2));
+
         System.out.println("Hello Java ✨");
-
-        double yield  = calculatePropertyYield(1_300,250_000);
-        System.out.println(yield);
+        System.out.println(Main.BRAND);
 
 
+
+//        double yield  = calculatePropertyYield(1_300,250_000);
+//        System.out.println(yield);
 
 
 //        System.out.println(22+18);
