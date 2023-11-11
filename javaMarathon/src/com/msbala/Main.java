@@ -23,6 +23,17 @@ public class Main {
         System.out.println("Hello Java ✨");
         System.out.println(Main.BRAND);
 
+        Cat rose1 = new Cat("Rose",2,"Blue");
+        Cat rose2 = new Cat("Rose",2,"blue");
+
+        System.out.println(rose1 == rose2);
+        System.out.println(rose1.equals(rose2));
+
+        Cat[] cats = {rose1,rose2};
+
+        Person alex = new Person("Alex",Gender.MALE,23,cats);
+
+        System.out.println(alex);
 
 
 //        double yield  = calculatePropertyYield(1_300,250_000);
