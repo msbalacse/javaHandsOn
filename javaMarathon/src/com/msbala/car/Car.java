@@ -1,4 +1,6 @@
-package com.msbala.classexercise;
+package com.msbala.car;
+
+import com.msbala.classexercise.Brand;
 
 import java.math.BigDecimal;
 import java.util.Objects;

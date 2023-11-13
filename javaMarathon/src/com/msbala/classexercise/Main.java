@@ -1,5 +1,7 @@
 package com.msbala.classexercise;
 
+import com.msbala.car.Car;
+
 import java.math.BigDecimal;
 import java.util.Date;
 
