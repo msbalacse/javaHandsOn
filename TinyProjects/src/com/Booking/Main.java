@@ -1,4 +1,4 @@
-import com.user.User;
+package com.Booking;
 
 import java.util.Scanner;
 
@@ -33,8 +33,7 @@ public class Main {
                     System.out.println("All user details");
                     break;
                 case 3:
-                    System.out.println("All user details");
-                    createUser();
+                    System.out.println("All car details");
                     break;
                 case 4:
                     System.out.println("user exit successfully");
@@ -47,8 +46,4 @@ public class Main {
         }
     }
 
-    public static void createUser(){
-        User joshua = new User("joshua");
-        joshua.toString();
-    }
 }
