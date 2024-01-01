@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Games/Games.iml" filepath="$PROJECT_DIR$/Games/Games.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaCore/JavaCore.iml" filepath="$PROJECT_DIR$/JavaCore/JavaCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaMaster/JavaMaster.iml" filepath="$PROJECT_DIR$/JavaMaster/JavaMaster.iml" />
       <module fileurl="file://$PROJECT_DIR$/Music Player/Music Player.iml" filepath="$PROJECT_DIR$/Music Player/Music Player.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pattern/Pattern.iml" filepath="$PROJECT_DIR$/Pattern/Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Problems/Problems.iml" filepath="$PROJECT_DIR$/Problems/Problems.iml" />
