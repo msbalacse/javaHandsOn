@@ -1,4 +1,4 @@
-package com.msbala;
+package com.msbala.array;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.msbala;
+package com.msbala.array;
 
 import java.util.LinkedList;
 import java.util.ListIterator;
