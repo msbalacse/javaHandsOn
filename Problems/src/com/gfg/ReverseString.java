@@ -1,13 +1,12 @@
 package com.gfg;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ReverseString {
 
     public static String reverseString(String name){
         int lenStr = name.length();
-        StringBuilder newStr = new StringBuilder("");
+        StringBuilder newStr = new StringBuilder();
         for (int i=lenStr - 1; i>=0; i--){
             newStr.append(name.charAt(i));
         }
