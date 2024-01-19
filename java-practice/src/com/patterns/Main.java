@@ -3,7 +3,7 @@ package com.patterns;
 public class Main {
     public static void main(String[] args) {
         // solving the striver pattern problem
-        p7(5);
+        p8(5);
     }
 
     static void p1(){
@@ -95,6 +95,29 @@ public class Main {
                 System.out.print("*");
             }
             for (int j = 0; j < n - i - 1; j++) {
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+        System.out.println("-------------------------------");
+        System.out.println();
+    }
+
+    static void p8(int N){
+        System.out.println("Pattern 8");
+        for (int i = N; i > 0; i--) {
+            for (int j =0; j<i; j++)
+            {
+                System.out.print(" ");
+            }
+            for(int j=0;j< 2*N -(2*i +1);j++){
+
+                System.out.print("*");
+            }
+
+            for (int j =0; j<i; j++)
+            {
                 System.out.print(" ");
             }
             System.out.println();
