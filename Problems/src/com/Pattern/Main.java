@@ -4,7 +4,7 @@ package com.Pattern;
 public class Main {
     public static void main(String[] args) {
         System.out.println();
-        pattern4(4);
+        pattern7(5);
     }
 
 //    Output of Pattern 1 Answer
@@ -77,6 +77,46 @@ public class Main {
                 System.out.print(" ");
             }
             for (int j = 0; j <= totalSpace - 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void pattern5(int n){
+        for (int i = 0; i < n; i++) {
+            for(int j=0; j<n-i-1; j++){
+                System.out.print(" ");
+            }
+            for (int j = 0; j < 2*i + 1; j++) {
+                System.out.print("*");
+            }
+            for(int j=0; j<n-i-1; j++){
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void pattern6(int n){
+        for (int i = 0; i < n; i++) {
+            for(int j=0; j<i; j++){
+                System.out.print(" ");
+            }
+            for (int j = 0; j < 2*n - (2*i+1) ; j++) {
+                System.out.print("*");
+            }
+            for(int j=0; j<i; j++){
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void pattern7(int n){
+        for (int i=0; i<2*n ; i++){
+            int reverse = i > n ? 2*n - i : i;
+            for (int j = 0; j< reverse; j++) {
                 System.out.print("*");
             }
             System.out.println();
