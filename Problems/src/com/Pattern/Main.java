@@ -4,7 +4,7 @@ package com.Pattern;
 public class Main {
     public static void main(String[] args) {
         System.out.println();
-        pattern7(5);
+        pattern8(5);
     }
 
 //    Output of Pattern 1 Answer
@@ -118,6 +118,17 @@ public class Main {
             int reverse = i > n ? 2*n - i : i;
             for (int j = 0; j< reverse; j++) {
                 System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+    
+    public static void pattern8(int n){
+        for (int i = 0; i < n; i++) {
+            int value = i%2==0 ? 1 : 0;
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print(value);
+                value = 1 - value;
             }
             System.out.println();
         }
