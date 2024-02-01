@@ -25,6 +25,8 @@ public class DecimalToBinary {
 
         return result;
     }
+
+
     public static void main(String[] args) {
         System.out.println(binary(13));
         System.out.println(binaryToDecimal(1101));
