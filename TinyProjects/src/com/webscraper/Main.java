@@ -16,5 +16,15 @@ public class Main {
             }
         }
 
+        System.out.println("--------------------------------------------------------------------------------");
+
+        List<String> paragraph = ws.getAllParagraph("https://medium.com/@julienetienne/stop-using-localstorage-64a6d6805da8");
+
+        for (String para:
+             paragraph) {
+            System.out.print(" =>  ");
+            System.out.println(para);
+        }
+
     }
 }
